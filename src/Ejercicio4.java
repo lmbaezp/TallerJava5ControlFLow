@@ -63,6 +63,7 @@ public class Ejercicio4 {
             System.out.println("Ha ocurrido un error");
         }
 
+
         scanner.close();
 
     }
