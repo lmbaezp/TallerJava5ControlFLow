@@ -58,8 +58,7 @@ public class Ejercicio4 {
 
 
         } catch (InputMismatchException e) {
-            System.out.println("La edad debe ser un número entero" +
-                    "\nSolo puedes ingresar texto y los tipos indicados");
+            System.out.println("Solo puedes ingresar los tipos de prendas indicados");
         } catch (Exception e) {
             System.out.println("Ha ocurrido un error");
         }
