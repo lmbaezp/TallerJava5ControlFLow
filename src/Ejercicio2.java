@@ -29,7 +29,7 @@ public class Ejercicio2 {
                 System.out.println("Indique la edad del animal (en número entero): ");
                 int edad = scanner.nextInt();
                 scanner.nextLine();
-                if(edad > 5){
+                if(edad > 5 && (tipoAnimal.equals("PERRO") || tipoAnimal.equals("GATO"))) {
                     vacunacion = true;
                 }
                 System.out.println("Tu mascota ha sido asignada al " + veterinario);
